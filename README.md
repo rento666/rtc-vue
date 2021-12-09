@@ -11,6 +11,15 @@ In the project directory, you can run:
 npm run serve
 ```
 
+## Start backend
+```
+git clone github.com/wenlng/go-captcha-example
+cd go-captcha-example
+go mod download
+go run main.go
+```
+
+
 ---------------------
 
 ### go-captcha

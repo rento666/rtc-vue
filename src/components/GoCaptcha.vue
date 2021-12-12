@@ -83,16 +83,28 @@
       }
     },
     methods: {
+      /**
+       * @Description: 处理关闭事件
+       * @param ev
+       */
       handleCloseEvent() {
         this.$emit('close')
         this.dots = []
         this.imageBase64Code = ''
         this.thumbBase64Code = ''
       },
+      /**
+       * @Description: 处理刷新事件
+       * @param ev
+       */
       handleRefreshEvent() {
         this.dots = []
         this.$emit('refresh')
       },
+      /**
+       * @Description: 处理确认事件
+       * @param ev
+       */
       handleConfirmEvent() {
         this.$emit('confirm', this.dots)
       },

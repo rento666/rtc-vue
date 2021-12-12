@@ -11,6 +11,7 @@
               @confirm="handleConfirm"
               @refresh="handleRequestCaptCode"
       />
+<!--   弹窗方式   -->
 <!--      <GoCaptchaBtnDialog-->
 <!--              class="go-captcha-btn"-->
 <!--              v-model="captStatus"-->

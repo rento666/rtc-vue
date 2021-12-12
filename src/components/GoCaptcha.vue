@@ -85,7 +85,6 @@
     methods: {
       /**
        * @Description: 处理关闭事件
-       * @param ev
        */
       handleCloseEvent() {
         this.$emit('close')
@@ -95,7 +94,6 @@
       },
       /**
        * @Description: 处理刷新事件
-       * @param ev
        */
       handleRefreshEvent() {
         this.dots = []
@@ -103,7 +101,6 @@
       },
       /**
        * @Description: 处理确认事件
-       * @param ev
        */
       handleConfirmEvent() {
         this.$emit('confirm', this.dots)

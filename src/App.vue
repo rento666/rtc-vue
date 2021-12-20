@@ -23,9 +23,6 @@
 <!--              @refresh="handleRequestCaptCode"-->
 <!--      />-->
 
-
-
-
       <!-- tip -->
       <div class="wg-cap-tip">
         <a target="_blank" href="https://github.com/wenlng/go-captcha/releases"><img src="https://img.shields.io/github/tag/wenlng/go-captcha.svg" alt="version"></a>

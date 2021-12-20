@@ -22,6 +22,21 @@
 <!--              @confirm="handleConfirm"-->
 <!--              @refresh="handleRequestCaptCode"-->
 <!--      />-->
+
+
+
+
+      <!-- tip -->
+      <div class="wg-cap-tip">
+        <a target="_blank" href="https://github.com/wenlng/go-captcha/releases"><img src="https://img.shields.io/github/tag/wenlng/go-captcha.svg" alt="version"></a>
+        <!-- Github Button -->
+        <!-- Place this tag where you want the button to render. -->
+        <a class="github-button" href="https://github.com/wenlng/go-captcha" data-size="large"
+           data-show-count="true" aria-label="Star wenlng/go-captcha on GitHub">Star</a>
+        <!-- Place this tag where you want the button to render. -->
+        <a class="github-button" href="https://github.com/wenlng/go-captcha/fork" data-size="large"
+           data-show-count="true" aria-label="Fork wenlng/go-captcha on GitHub">Fork</a>
+      </div>
     </div>
   </div>
 </template>
@@ -30,6 +45,7 @@
   import GoCaptchaBtn from './components/GoCaptchaBtn'
   // import GoCaptchaBtnDialog from './components/GoCaptchaBtnDialog'
   import Qs from 'qs'
+  import githubBtn from '@/assets/github-btn'
 
   export default {
     name: 'App',
@@ -49,6 +65,9 @@
         captExpires: 0,
         captAutoRefreshCount: 0,
       }
+    },
+    created() {
+      githubBtn()
     },
     methods: {
       /**
@@ -162,5 +181,24 @@
   .go-captcha-btn{
     width: 300px !important;
     margin: 0 auto !important;
+  }
+
+  .wg-cap-tip{
+    padding: 50px 0 100px;
+    font-size: 13px;
+    color: #76839b;
+    text-align: center;
+    line-height: 180%;
+    width: 100%;
+    max-width: 680px;
+  }
+
+  .wg-cap-tip a{
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  .wg-cap-tip a img{
+    height: 28px;
   }
 </style>

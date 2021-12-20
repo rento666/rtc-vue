@@ -174,8 +174,8 @@
     position: absolute;
     top: 450px;
     left: 50%;
-    margin-left: -150px;
-    width: 300px;
+    margin-left: -200px;
+    width: 400px;
   }
 
   .go-captcha-btn{
@@ -200,5 +200,9 @@
 
   .wg-cap-tip a img{
     height: 28px;
+  }
+
+  .wg-cap-tip > span{
+    margin: 0 5px;
   }
 </style>

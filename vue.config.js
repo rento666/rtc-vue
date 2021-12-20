@@ -1,4 +1,5 @@
 module.exports = {
+    publicPath: '/go_captcha_demo',
     // ...
     devServer: {
         port: 8001,

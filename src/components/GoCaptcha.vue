@@ -136,9 +136,14 @@
         const xPos = mouseX - domX
         const yPos = mouseY - domY
 
+        // 转整形
+        const xp = parseInt(xPos.toString())
+        const yp = parseInt(yPos.toString())
+
+        // 减去点的一半
         this.dots.push({
-          x: xPos - 11,
-          y: yPos - 11,
+          x: xp - 11,
+          y: yp - 11,
           index: this.dots.length + 1
         })
         return false

@@ -72,7 +72,7 @@
         <go-captcha
             v-model="popoverVisible"
             width="300px"
-            height="300px"
+            height="240px"
             :max-dot="maxDot"
             :image-base64="imageBase64"
             :thumb-base64="thumbBase64"

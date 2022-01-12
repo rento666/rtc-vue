@@ -25,7 +25,7 @@
 
       <!-- tip -->
       <div class="wg-cap-tip">
-        <a target="_blank" href="https://github.com/wenlng/go-captcha/releases"><img src="https://img.shields.io/github/tag/wenlng/go-captcha.svg" alt="version"></a>
+        <a target="_blank" href="https://github.com/wenlng/go-captcha/releases"><img src="https://img.shields.io/github/v/release/wenlng/go-captcha.svg" alt="version"></a>
         <!-- Github Button -->
         <!-- Place this tag where you want the button to render. -->
         <a class="github-button" href="https://github.com/wenlng/go-captcha" data-size="large"

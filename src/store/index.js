@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import {setToken} from "@/utils/token";
+import {setToken} from "@/utils/localStorage";
  
 Vue.use(Vuex)
  

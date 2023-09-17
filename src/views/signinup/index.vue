@@ -228,7 +228,6 @@
          const info = RSAencrypt(pas)
          // 登录api
          loginAPI({info}).then((res)=>{
-            console.log(res.data)
              if(res.data.code===200){
                  that.login_s(res.data.data)
                  // 跳转到/home
@@ -332,7 +331,7 @@
  }
 </script>
 
-<style>
+<style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 * {
   margin: 0;

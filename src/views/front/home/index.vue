@@ -1,6 +1,12 @@
 <template>
  <div>
-  <div>home</div>
+  <div>shou ye</div>
+  <div>shou ye</div>
+  <div>shou ye</div>
+  <div>shou ye</div>
+  <div>shou ye</div>
+  <div>shou ye</div>
+
  </div>
 </template>
 
@@ -27,5 +33,8 @@
 
 <style>
 
+  body {
+    background: #c92929;
+  }
  
 </style>

@@ -39,12 +39,9 @@ export const goCaptchaCheckData = (dotArr,key) => {
  */
 export const registerCode = (identifier,identityType) => {
   return request({
-    method: "post",
-    url: "/v1/user/register_code",
-    data: Qs.stringify({
-      Identifier: identifier,
-      IdentityType: identityType
-    })
+    method: "get",
+    url: "/v1/user/register_code?Identifier=" +
+        identifier+"&IdentityType="+identityType,
   })
 }
 /**

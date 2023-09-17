@@ -10,3 +10,11 @@ export const getToken = () => {
 export const removeToken = () => {
   localStorage.removeItem('TOKEN');
 }
+//存主题
+export const setTheme = (theme) => {
+  localStorage.setItem('THEME',theme)
+}
+//取主题
+export const getTheme = () => {
+  return localStorage.getItem('THEME')
+}

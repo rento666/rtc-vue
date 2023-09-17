@@ -1,7 +1,9 @@
 import Vue from 'vue'
 // 引入路由第三方包
 import VueRouter from 'vue-router'
-import {getToken} from "@/utils/token";
+import {getToken} from "@/utils/localStorage";
+import { Message } from 'element-ui'
+
 // 在项目中使用vue-router进行管理
 Vue.use(VueRouter)
 
@@ -23,7 +25,8 @@ const routes = [
     children: [
       {
         path: '/home',
-        component: () => import('../views/front/home')
+        component: () => import('../views/front/home'),
+        meta: { requireAuth:true }
       }
     ]
   }
